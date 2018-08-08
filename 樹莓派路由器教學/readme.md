@@ -11,8 +11,8 @@ sudo apt-get install dnsmasq hostapd
 #將無線接口wlan0配置成靜態地址
 ![03.png](https://github.com/s84175/raspberrypi/blob/master/%E6%A8%B9%E8%8E%93%E6%B4%BE%E8%B7%AF%E7%94%B1%E5%99%A8%E6%95%99%E5%AD%B8/photo/03.png)
 # 第四步:
-sudo nano /etc/network/interfaces//編寫interface
-allow-hotplug wlan0 //wlan0可以熱插拔
+sudo nano /etc/network/interfaces#編寫interface
+allow-hotplug wlan0 #wlan0可以熱插拔
 iface wlan0 inet manual
 source-directory /etc/network/interfaces.d
 #每個版本的樹梅派interfaces這一文件的配置會不太一樣

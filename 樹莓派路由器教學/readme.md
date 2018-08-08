@@ -160,6 +160,7 @@ sudo service dnsmasq restart
 sudo chmod +x /etc/dnsmasq_delayinit.sh
 # 最後一步:
 #重啟
+
 sudo service dhcpcd restart
 
 sudo service hostapd start
